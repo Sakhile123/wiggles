@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 221, 223);
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+}
+logo{
+    font-size: 28px;
+    font-family:'Trebuchet MS';
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.nav{
+    text-align:center;
+}
+.nav  nav a{
+    text-decoration: none;
+    color: black;
+    margin: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav  nav a:hover{
+    color:rgb(248, 159, 174);
+}
+.img{
+    background-color: white;
+    height: auto;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+    border: solid white;
+    box-shadow: 15px 15px 0;
+   margin-right: 10%;
+   margin-left: 35%;
+
+}
+.img:hover{
+    color:white;
+    background-color: pink;
+}
+.products{
+    display: flex;
+    margin-left: 7%;
+}
+.products img{
+    width: 180px;
+    height: 150px;
+}
+.watch{
+    background-color: white;
+    margin-left: 3%;
+}
+.watch h2{
+    text-align: center;
+}
+button{
+    background-color: rgb(0, 183, 255);
+    
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 30%;
+}
+.contacts{
+    text-align:center ;
+}
+.about{
+    height: auto;
+}
+@media (max-width: 600px){
+    body {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .img {
+        display: flex; 
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        background-color: black;
+        color:white;
+        margin-right:10%;
+        margin: 0;
+  
+    }
+      .img img{
+        text-align: center;
+       
+      }
+    section {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav nav a:hover{
+        background-color: pink;
+        color: white;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+        margin-right:15% ;
+    
+    }
+  button{
+    width: fit-content;
+    margin-left: 40%;
+  }
+  .watch img{
+    margin-left: 15%;
+  }
+  .watch{
+    margin-top: 5%;
+  }
+  .logo{
+    text-align: center;
+  }
+}
