@@ -5,104 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wiggles</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
- 
- .img h1{
-    font-size:36px;
- }
+        .sale img{
+            width: 500px;
+            height: 500px;
+            margin-left: 50px;
+            margin-top: 25px;
+            float: left;
+        }
+        .sale{
+            background:none ;
+            border: solid white;
+            width: 500px;
+            height: 250px;
+            color: black;
+            text-align: center;
+           
+        }
+        .content{
+            margin-left: 35%;
+            text-align: center;
+            border: none;
+            width: auto;
+            height: auto;
+            margin-bottom: 15%;
+        }
+        .home{
+            margin-top: 3%;
+        }
+        span{
+            width: 300px;
+        }
+        span p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            color: rgba(128, 128, 128, 0.781);
+        }
+        section .discription{
+            display: flex;
+            flex-direction: column;
+    
+        }
     </style>
 </head>
 <body>
     <header>
-        <div class="logo" style="margin-left: 5px;">
-        <logo><i>Wiggles</i></logo>
-    </div>
-   
-        <div class="nav">
-            <nav>
-                
-                <a href="index.html">Home</a>
-                <a href="#about">About</a>
-                <a href="#products">Products</a>
-                <a href="#contacts">Contacts</a>
-            </nav>
-        </div>
+        <nav>
+            <div class="openMenu"></i></div>
+            <ul class="mainMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+                <li><input type="search" placeholder="search"><i class="fa fa-search"></i></li>
+                <div class="closeMenu"></i></div>
+            </ul>
+
+        </nav>
     </header>
-    <!--home-->
-    <section id="Home" href="index.html">
-        <h1 style="text-align:center; font-size:50px;">Beauty & Style</h1>
-        <div class="img">
-       <h2>USE THE CODE</h2>
-       <h1>{ LOVE }</h1>
-       <h2>GET 10% OFF</h2>
-       
+<!--home-->
+<section class="home">
 
-    </div>
-     
-    </section>
-    <!--home-->
-      <!--home-->
-      <section id="about" style="background-color:white;">
-        <h1 style="text-align:center;font-size:50px;">About us</h1>
-        <div class="about">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, atque ducimus! Rerum placeat aspernatur, perspiciatis consectetur sapiente illum? Voluptatem odit itaque quibusdam alias ea ab natus unde repellat ex nihil.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, atque ducimus! Rerum placeat aspernatur, perspiciatis consectetur sapiente illum? Voluptatem odit itaque quibusdam alias ea ab natus unde repellat ex nihil.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, atque ducimus! Rerum placeat aspernatur, perspiciatis consectetur sapiente illum? Voluptatem odit itaque quibusdam alias ea ab natus unde repellat ex nihil.
-        </p>
-    </div>
-      </section>
-      <!--home-->
-        <!--home-->
-    <section id="products">
-        <h1 style="text-align:center;font-size:50px;">Products</h1>
-        <div class="products">
-        <div class="watch">
-            <img src="bag1.jpg">
-            <h2>R50.00</h2>
+   <div class="sale">
+    <p style="font-size:18px;font-family:Arial, Helvetica, sans-serif;">Tshepiso Makhabane</p>
+  <img src="tshepiso.jpeg">
+   </div>
+
+   <div class="content">
+    <h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">Wiggles store</h1>
+ <span> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex optio architecto quisquam sit rem. Mollitia tenetur labore saepe fuga unde, illum sequi provident odio iusto pariatur sit? Reprehenderit, vitae libero!</p>
+ </span>  
+    <div class="social">
+      <div class="instagram"> <i class="fab fa-instagram"></i></div> 
+      <div class="facebook"><i class="fab fa-facebook"></i></div>  
+       <div class="whatsapp"><i class="fab fa-whatsapp"></i></div>
+     </div>
+   </div>
+
+</section id="discription" >
+<!--home-->
+
+<!--next-->
+<section>
+    <div class="discription">
+        <div class="container">
+            <h1>Discription</h1>
         </div>
-        <div class="watch">
-            <img src="bag2.jpg">
-            <h2>R50.00</h2>
-        </div>
-        <div class="watch">
-            <img src="watch1.jpg">
-            <h2>R50.00</h2>
-        </div>
-        <div class="watch">
-            <img src="watch2.jpg">
-            <h2>R50.00</h2>
-        </div>
-        <div class="watch">
-            <img src="ring1.jpg">
-            <h2>R50.00</h2>
+        <div class="column">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, minima, nihil dolore eaque cum quasi voluptas quidem nesciunt consequatur sed sequi ad excepturi ab harum provident aperiam nam. Dicta, ad!
+            </p>
         </div>
 
     </div>
-    </section>
-    <!--home-->
-      <!--home-->
-      <section id="contacts" style="background-color:white;">
-        <h1 style="text-align:center;font-size:50px;">Contacts</h1>
-        <button><a href="index.html">Back to Top</a></button>
-        <div class="contacts">
-          <h2>Instagram @wiggels.store</h2>
-          <h2>whatspp 078 908 9856</h2>
-          <h2>Free Dilivery JHB CBD</h2>
+</section>
+<!--next-->
 
-        </div>
+<footer>
+    <p>&copy;copyright 2024| Tshepiso Makhabane</p>
+    <div class="social">
+        <div class="instagram" style="color:rgb(209, 24, 247)"> <i class="fab fa-instagram"></i></div> 
+        <div class="facebook" style="color: rgb(0, 102, 255)"><i class="fab fa-facebook"></i></div>  
+         <div class="whatsapp" style="color: rgb(2, 170, 2)"><i class="fab fa-whatsapp"></i></div>
+       </div>
 
-      </section>
-      <!--home-->
-<script>
-       
-        document.querySelector('.hamburger').addEventListener('click', function() {
-            document.querySelector('nav').style.display = (document.querySelector('nav').style.display === 'flex' || document.querySelector('nav').style.display === '') ? 'flex' : 'none';
-        });
-    </script>
+</footer>
+    <script src="script.js"></script>
 </body>
 </html>
